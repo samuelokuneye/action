@@ -2,7 +2,7 @@ name: test
 on: push
 jobs:
   run-shell-commands:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v3
